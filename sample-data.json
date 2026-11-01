@@ -1,0 +1,641 @@
+{
+  "ApmIssue": [
+    {
+      "id": "00000000-0112-0001-0000-000000000001",
+      "projectId": "00000000-0112-0001-0000-000000000001",
+      "epicId": "00000000-0112-0001-0000-000000000001",
+      "sprintId": "00000000-0112-0001-0000-000000000001",
+      "title": "Issue #1 — Enterprise Primary Record",
+      "description": "Issue description configuration (1)",
+      "type": "Issue type configuration (1)",
+      "status": "ACTIVE",
+      "priority": "Issue priority configuration (1)",
+      "storyPoints": 10,
+      "labelIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0112-0001-0000-000000000001",
+      "reporterId": "00000000-0112-0001-0000-000000000001"
+    },
+    {
+      "id": "00000000-0112-0001-0000-000000000002",
+      "projectId": "00000000-0112-0001-0000-000000000002",
+      "epicId": "00000000-0112-0001-0000-000000000002",
+      "sprintId": "00000000-0112-0001-0000-000000000002",
+      "title": "Issue #2 — Enterprise Operations Record",
+      "description": "Issue description configuration (2)",
+      "type": "Issue type configuration (2)",
+      "status": "IN_PROGRESS",
+      "priority": "Issue priority configuration (2)",
+      "storyPoints": 20,
+      "labelIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0112-0001-0000-000000000002",
+      "reporterId": "00000000-0112-0001-0000-000000000002"
+    },
+    {
+      "id": "00000000-0112-0001-0000-000000000003",
+      "projectId": "00000000-0112-0001-0000-000000000003",
+      "epicId": "00000000-0112-0001-0000-000000000003",
+      "sprintId": "00000000-0112-0001-0000-000000000003",
+      "title": "Issue #3 — Enterprise Compliance Record",
+      "description": "Issue description configuration (3)",
+      "type": "Issue type configuration (3)",
+      "status": "COMPLETED",
+      "priority": "Issue priority configuration (3)",
+      "storyPoints": 30,
+      "labelIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0112-0001-0000-000000000003",
+      "reporterId": "00000000-0112-0001-0000-000000000003"
+    }
+  ],
+  "ApmProject": [
+    {
+      "id": "00000000-0112-0002-0000-000000000001",
+      "name": "Project #1 — Enterprise Primary Record",
+      "description": "Project description configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0002-0000-000000000002",
+      "name": "Project #2 — Enterprise Operations Record",
+      "description": "Project description configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0002-0000-000000000003",
+      "name": "Project #3 — Enterprise Compliance Record",
+      "description": "Project description configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevAccessibilityFinding": [
+    {
+      "id": "00000000-0112-0003-0000-000000000001",
+      "runId": "00000000-0112-0001-0000-000000000001",
+      "routePath": "Accessibility Finding routePath configuration (1)",
+      "theme": "Accessibility Finding theme configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0003-0000-000000000002",
+      "runId": "00000000-0112-0001-0000-000000000002",
+      "routePath": "Accessibility Finding routePath configuration (2)",
+      "theme": "Accessibility Finding theme configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0003-0000-000000000003",
+      "runId": "00000000-0112-0001-0000-000000000003",
+      "routePath": "Accessibility Finding routePath configuration (3)",
+      "theme": "Accessibility Finding theme configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevProductLaunch": [
+    {
+      "id": "00000000-0112-0004-0000-000000000001",
+      "launchCode": "DPL-2026-0001",
+      "name": "Product Launch #1 — Enterprise Primary Record",
+      "tier": "Product Launch tier configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0004-0000-000000000002",
+      "launchCode": "DPL-2026-0002",
+      "name": "Product Launch #2 — Enterprise Operations Record",
+      "tier": "Product Launch tier configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0004-0000-000000000003",
+      "launchCode": "DPL-2026-0003",
+      "name": "Product Launch #3 — Enterprise Compliance Record",
+      "tier": "Product Launch tier configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevTestRun": [
+    {
+      "id": "00000000-0112-0005-0000-000000000001",
+      "runNumber": "DTR-2026-0001",
+      "suiteId": "00000000-0112-0001-0000-000000000001",
+      "matrixId": "00000000-0112-0001-0000-000000000001",
+      "triggerSource": "Test Run triggerSource configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0005-0000-000000000002",
+      "runNumber": "DTR-2026-0002",
+      "suiteId": "00000000-0112-0001-0000-000000000002",
+      "matrixId": "00000000-0112-0001-0000-000000000002",
+      "triggerSource": "Test Run triggerSource configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0005-0000-000000000003",
+      "runNumber": "DTR-2026-0003",
+      "suiteId": "00000000-0112-0001-0000-000000000003",
+      "matrixId": "00000000-0112-0001-0000-000000000003",
+      "triggerSource": "Test Run triggerSource configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevVisualSnapshot": [
+    {
+      "id": "00000000-0112-0006-0000-000000000001",
+      "runId": "00000000-0112-0001-0000-000000000001",
+      "snapshotKey": "DVS-2026-0001",
+      "routeOrComponent": "Visual Snapshot routeOrComponent configuration (1)",
+      "viewportWidth": 10,
+      "theme": "Visual Snapshot theme configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0006-0000-000000000002",
+      "runId": "00000000-0112-0001-0000-000000000002",
+      "snapshotKey": "DVS-2026-0002",
+      "routeOrComponent": "Visual Snapshot routeOrComponent configuration (2)",
+      "viewportWidth": 20,
+      "theme": "Visual Snapshot theme configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0006-0000-000000000003",
+      "runId": "00000000-0112-0001-0000-000000000003",
+      "snapshotKey": "DVS-2026-0003",
+      "routeOrComponent": "Visual Snapshot routeOrComponent configuration (3)",
+      "viewportWidth": 30,
+      "theme": "Visual Snapshot theme configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "SupKnowledgeArticle": [
+    {
+      "id": "00000000-0112-0007-0000-000000000001",
+      "title": "KnowledgeArticle #1 — Enterprise Primary Record",
+      "content": "KnowledgeArticle content configuration (1)",
+      "category": "KnowledgeArticle category configuration (1)",
+      "isPublished": true,
+      "authorId": "00000000-0112-0001-0000-000000000001",
+      "isDeleted": false,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "00000000-0112-0007-0000-000000000002",
+      "title": "KnowledgeArticle #2 — Enterprise Operations Record",
+      "content": "KnowledgeArticle content configuration (2)",
+      "category": "KnowledgeArticle category configuration (2)",
+      "isPublished": true,
+      "authorId": "00000000-0112-0001-0000-000000000002",
+      "isDeleted": false,
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "00000000-0112-0007-0000-000000000003",
+      "title": "KnowledgeArticle #3 — Enterprise Compliance Record",
+      "content": "KnowledgeArticle content configuration (3)",
+      "category": "KnowledgeArticle category configuration (3)",
+      "isPublished": false,
+      "authorId": "00000000-0112-0001-0000-000000000003",
+      "isDeleted": false,
+      "status": "COMPLETED"
+    }
+  ],
+  "DevL10nCatalog": [
+    {
+      "id": "00000000-0112-0008-0000-000000000001",
+      "name": "L10n Catalog #1 — Enterprise Primary Record",
+      "slug": "DL10-2026-0001",
+      "sourceLocale": "L10n Catalog sourceLocale configuration (1)",
+      "targetLocales": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "fallbackMap": {
+        "configured": true,
+        "tier": 1
+      },
+      "defaultResourceFormat": "2026-11-01T10:00:00Z",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0008-0000-000000000002",
+      "name": "L10n Catalog #2 — Enterprise Operations Record",
+      "slug": "DL10-2026-0002",
+      "sourceLocale": "L10n Catalog sourceLocale configuration (2)",
+      "targetLocales": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "fallbackMap": {
+        "configured": true,
+        "tier": 2
+      },
+      "defaultResourceFormat": "2026-11-02T10:00:00Z",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0008-0000-000000000003",
+      "name": "L10n Catalog #3 — Enterprise Compliance Record",
+      "slug": "DL10-2026-0003",
+      "sourceLocale": "L10n Catalog sourceLocale configuration (3)",
+      "targetLocales": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "fallbackMap": {
+        "configured": true,
+        "tier": 3
+      },
+      "defaultResourceFormat": "2026-11-03T10:00:00Z",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevL10nStringKey": [
+    {
+      "id": "00000000-0112-0009-0000-000000000001",
+      "catalogId": "00000000-0112-0001-0000-000000000001",
+      "branchName": "L10n String Key #1 — Enterprise Primary Record",
+      "keyName": "DL10-2026-0001",
+      "platforms": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "isPlural": true,
+      "sourceValues": {
+        "configured": true,
+        "tier": 1
+      },
+      "sourceContentHash": "L10n String Key sourceContentHash configuration (1)",
+      "protectedPlaceholders": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "developerNotes": "L10n String Key developerNotes configuration (1)",
+      "maxLengthChars": 10,
+      "isArchived": true,
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0009-0000-000000000002",
+      "catalogId": "00000000-0112-0001-0000-000000000002",
+      "branchName": "L10n String Key #2 — Enterprise Operations Record",
+      "keyName": "DL10-2026-0002",
+      "platforms": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "isPlural": true,
+      "sourceValues": {
+        "configured": true,
+        "tier": 2
+      },
+      "sourceContentHash": "L10n String Key sourceContentHash configuration (2)",
+      "protectedPlaceholders": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "developerNotes": "L10n String Key developerNotes configuration (2)",
+      "maxLengthChars": 20,
+      "isArchived": true,
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0009-0000-000000000003",
+      "catalogId": "00000000-0112-0001-0000-000000000003",
+      "branchName": "L10n String Key #3 — Enterprise Compliance Record",
+      "keyName": "DL10-2026-0003",
+      "platforms": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "isPlural": false,
+      "sourceValues": {
+        "configured": true,
+        "tier": 3
+      },
+      "sourceContentHash": "L10n String Key sourceContentHash configuration (3)",
+      "protectedPlaceholders": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "developerNotes": "L10n String Key developerNotes configuration (3)",
+      "maxLengthChars": 30,
+      "isArchived": false,
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevL10nKeyTranslation": [
+    {
+      "id": "00000000-0112-0010-0000-000000000001",
+      "catalogId": "00000000-0112-0001-0000-000000000001",
+      "stringKeyId": "DL10-2026-0001",
+      "targetLocale": "L10n Key Translation targetLocale configuration (1)",
+      "isRtl": true,
+      "pluralForms": {
+        "configured": true,
+        "tier": 1
+      },
+      "basedOnSourceHash": "L10n Key Translation basedOnSourceHash configuration (1)",
+      "originType": "L10n Key Translation originType configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0010-0000-000000000002",
+      "catalogId": "00000000-0112-0001-0000-000000000002",
+      "stringKeyId": "DL10-2026-0002",
+      "targetLocale": "L10n Key Translation targetLocale configuration (2)",
+      "isRtl": true,
+      "pluralForms": {
+        "configured": true,
+        "tier": 2
+      },
+      "basedOnSourceHash": "L10n Key Translation basedOnSourceHash configuration (2)",
+      "originType": "L10n Key Translation originType configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0010-0000-000000000003",
+      "catalogId": "00000000-0112-0001-0000-000000000003",
+      "stringKeyId": "DL10-2026-0003",
+      "targetLocale": "L10n Key Translation targetLocale configuration (3)",
+      "isRtl": false,
+      "pluralForms": {
+        "configured": true,
+        "tier": 3
+      },
+      "basedOnSourceHash": "L10n Key Translation basedOnSourceHash configuration (3)",
+      "originType": "L10n Key Translation originType configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevL10nVisualContext": [
+    {
+      "id": "00000000-0112-0011-0000-000000000001",
+      "catalogId": "00000000-0112-0001-0000-000000000001",
+      "title": "L10n Visual Context #1 — Enterprise Primary Record",
+      "imageFileId": "00000000-0112-0001-0000-000000000001",
+      "sourceDesignUrl": "L10n Visual Context sourceDesignUrl configuration (1)",
+      "imageWidthPx": 10,
+      "imageHeightPx": 10,
+      "keyBindings": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0011-0000-000000000002",
+      "catalogId": "00000000-0112-0001-0000-000000000002",
+      "title": "L10n Visual Context #2 — Enterprise Operations Record",
+      "imageFileId": "00000000-0112-0001-0000-000000000002",
+      "sourceDesignUrl": "L10n Visual Context sourceDesignUrl configuration (2)",
+      "imageWidthPx": 20,
+      "imageHeightPx": 20,
+      "keyBindings": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0011-0000-000000000003",
+      "catalogId": "00000000-0112-0001-0000-000000000003",
+      "title": "L10n Visual Context #3 — Enterprise Compliance Record",
+      "imageFileId": "00000000-0112-0001-0000-000000000003",
+      "sourceDesignUrl": "L10n Visual Context sourceDesignUrl configuration (3)",
+      "imageWidthPx": 30,
+      "imageHeightPx": 30,
+      "keyBindings": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevTranslationMemoryEntry": [
+    {
+      "id": "00000000-0112-0012-0000-000000000001",
+      "sourceLocale": "Translation Memory Entry sourceLocale configuration (1)",
+      "targetLocale": "Translation Memory Entry targetLocale configuration (1)",
+      "sourceSegmentText": "Translation Memory Entry sourceSegmentText configuration (1)",
+      "normalizedHash": "Translation Memory Entry normalizedHash configuration (1)",
+      "targetSegmentText": "Translation Memory Entry targetSegmentText configuration (1)",
+      "originCatalogId": "00000000-0112-0001-0000-000000000001",
+      "originKeyName": "DTME-2026-0001",
+      "approvedByUserId": "00000000-0112-0001-0000-000000000001",
+      "usageCount": 10,
+      "approvedAt": "2026-11-01T10:00:00Z",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0012-0000-000000000002",
+      "sourceLocale": "Translation Memory Entry sourceLocale configuration (2)",
+      "targetLocale": "Translation Memory Entry targetLocale configuration (2)",
+      "sourceSegmentText": "Translation Memory Entry sourceSegmentText configuration (2)",
+      "normalizedHash": "Translation Memory Entry normalizedHash configuration (2)",
+      "targetSegmentText": "Translation Memory Entry targetSegmentText configuration (2)",
+      "originCatalogId": "00000000-0112-0001-0000-000000000002",
+      "originKeyName": "DTME-2026-0002",
+      "approvedByUserId": "00000000-0112-0001-0000-000000000002",
+      "usageCount": 20,
+      "approvedAt": "2026-11-02T10:00:00Z",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0012-0000-000000000003",
+      "sourceLocale": "Translation Memory Entry sourceLocale configuration (3)",
+      "targetLocale": "Translation Memory Entry targetLocale configuration (3)",
+      "sourceSegmentText": "Translation Memory Entry sourceSegmentText configuration (3)",
+      "normalizedHash": "Translation Memory Entry normalizedHash configuration (3)",
+      "targetSegmentText": "Translation Memory Entry targetSegmentText configuration (3)",
+      "originCatalogId": "00000000-0112-0001-0000-000000000003",
+      "originKeyName": "DTME-2026-0003",
+      "approvedByUserId": "00000000-0112-0001-0000-000000000003",
+      "usageCount": 30,
+      "approvedAt": "2026-11-03T10:00:00Z",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevL10nSyncJob": [
+    {
+      "id": "00000000-0112-0013-0000-000000000001",
+      "jobCode": "DL10-2026-0001",
+      "catalogId": "00000000-0112-0001-0000-000000000001",
+      "jobType": "L10n Sync Job jobType configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0013-0000-000000000002",
+      "jobCode": "DL10-2026-0002",
+      "catalogId": "00000000-0112-0001-0000-000000000002",
+      "jobType": "L10n Sync Job jobType configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0013-0000-000000000003",
+      "jobCode": "DL10-2026-0003",
+      "catalogId": "00000000-0112-0001-0000-000000000003",
+      "jobType": "L10n Sync Job jobType configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevL10nOtaBundle": [
+    {
+      "id": "00000000-0112-0014-0000-000000000001",
+      "catalogId": "00000000-0112-0001-0000-000000000001",
+      "bundleVersion": 10,
+      "channel": "L10n Ota Bundle channel configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0014-0000-000000000002",
+      "catalogId": "00000000-0112-0001-0000-000000000002",
+      "bundleVersion": 20,
+      "channel": "L10n Ota Bundle channel configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0014-0000-000000000003",
+      "catalogId": "00000000-0112-0001-0000-000000000003",
+      "bundleVersion": 30,
+      "channel": "L10n Ota Bundle channel configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevL10nReviewBatch": [
+    {
+      "id": "00000000-0112-0015-0000-000000000001",
+      "batchCode": "DL10-2026-0001",
+      "catalogId": "00000000-0112-0001-0000-000000000001",
+      "targetLocale": "L10n Review Batch targetLocale configuration (1)",
+      "stringKeyIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "assigneeUserId": "00000000-0112-0001-0000-000000000001",
+      "reviewerUserId": "00000000-0112-0001-0000-000000000001",
+      "wordCountBreakdown": {
+        "configured": true,
+        "tier": 1
+      },
+      "estimatedCostAmount": 1250,
+      "currencyCode": "DL10-2026-0001",
+      "dqfErrors": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "lqaQualityScore": 85,
+      "dueDate": "2026-11-01T10:00:00Z",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0015-0000-000000000002",
+      "batchCode": "DL10-2026-0002",
+      "catalogId": "00000000-0112-0001-0000-000000000002",
+      "targetLocale": "L10n Review Batch targetLocale configuration (2)",
+      "stringKeyIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "assigneeUserId": "00000000-0112-0001-0000-000000000002",
+      "reviewerUserId": "00000000-0112-0001-0000-000000000002",
+      "wordCountBreakdown": {
+        "configured": true,
+        "tier": 2
+      },
+      "estimatedCostAmount": 2500,
+      "currencyCode": "DL10-2026-0002",
+      "dqfErrors": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "lqaQualityScore": 90,
+      "dueDate": "2026-11-02T10:00:00Z",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0112-0015-0000-000000000003",
+      "batchCode": "DL10-2026-0003",
+      "catalogId": "00000000-0112-0001-0000-000000000003",
+      "targetLocale": "L10n Review Batch targetLocale configuration (3)",
+      "stringKeyIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "assigneeUserId": "00000000-0112-0001-0000-000000000003",
+      "reviewerUserId": "00000000-0112-0001-0000-000000000003",
+      "wordCountBreakdown": {
+        "configured": true,
+        "tier": 3
+      },
+      "estimatedCostAmount": 3750,
+      "currencyCode": "DL10-2026-0003",
+      "dqfErrors": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "lqaQualityScore": 95,
+      "dueDate": "2026-11-03T10:00:00Z",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ]
+}

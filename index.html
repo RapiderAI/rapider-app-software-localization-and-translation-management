@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rapider Software Localization &amp; Translation Management</title>
+  <script src="https://kit.fontawesome.com/5b23df26dc.js" crossorigin="anonymous" defer></script>
+  <script src="/assets/js/rapider-components.js" defer></script>
+  <link rel="stylesheet" href="/assets/themes/rapider-tailwind-theme.css">
+  <link rel="stylesheet" href="/assets/themes/crm-expenses-design.css">
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; }
+    iframe#appFrame { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <iframe id="appFrame" src="pages/dashboard/dashboard.html"></iframe>
+  <script>
+    const routes = {
+  "dashboard": "pages/dashboard/dashboard.html",
+  "catalogs": "pages/catalogs/catalogs.html",
+  "string-keys": "pages/string-keys/string-keys.html",
+  "git-sync": "pages/git-sync/git-sync.html",
+  "ota-bundles": "pages/ota-bundles/ota-bundles.html",
+  "visual-context": "pages/visual-context/visual-context.html",
+  "review-batches": "pages/review-batches/review-batches.html",
+  "translation-memory": "pages/translation-memory/translation-memory.html",
+  "analytics": "pages/analytics/analytics.html",
+  "key-workbench-detail": "pages/key-workbench-detail/key-workbench-detail.html",
+  "batch-detail": "pages/batch-detail/batch-detail.html",
+  "catalog-drawer": "pages/catalog-drawer/catalog-drawer.html"
+};
+    function handleHash() {
+      const hash = window.location.hash.replace(/^#\/?/, '').split('?')[0];
+      const route = hash || 'dashboard';
+      const target = routes[route] || routes['dashboard'];
+      const iframe = document.getElementById('appFrame');
+      if (iframe) iframe.src = target;
+    }
+    window.addEventListener('hashchange', handleHash);
+    window.addEventListener('load', handleHash);
+  </script>
+</body>
+</html>
